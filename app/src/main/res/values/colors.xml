@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<color name="primary">#814CAB51</color>
+<color name="primary_dark">#8C54B32F</color>
+<color name="primary_light">#926AFA60</color>
+    <color name="price_color.xml">#6939D81D</color>
+
+
+<color name="background">#f8fafc</color>
+<color name="surface">#ffffff</color>
+
+
+<color name="glass">#BFE2FFE2</color>
+<color name="glass_border">#e2e8f0</color>
+<color name="glass_input">#f1f5f9</color>
+
+
+<color name="text_primary">#0f172a</color>
+<color name="text_secondary">#648B74</color>
+<color name="text_hint">#94B8A4</color>
+
+
+<color name="accent">#923BBC24</color>
+
+
+<color name="success">#10b981</color>
+<color name="error">#ef4444</color>
+</resources>

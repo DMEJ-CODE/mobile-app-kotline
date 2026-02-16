@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Shopy</string>
+
+    <!-- Welcome -->
+    <string name="welcome_title">Welcome on Shopy</string>
+    <string name="welcome_subtitle">Discover the best online shopping experience</string>
+    <string name="get_started">Get Started</string>
+
+    <!-- Login -->
+    <string name="login_title">Login</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="link_register">Create an account …</string>
+
+    <!-- Register -->
+    <string name="register_title">Register</string>
+    <string name="hint_name">name</string>
+    <string name="hint_phone">Tell</string>
+    <string name="hint_gender">Gender</string>
+    <string name="btn_register">Register</string>
+    <string name="link_login">Have an account ? Connect</string>
+
+
+    <string name="nav_home">Home</string>
+    <string name="nav_shop">Shop</string>
+    <string name="nav_cart">My cart</string>
+    <string name="nav_profile">Profile</string>
+
+
+    <string name="error_empty">Feel the field to proceed</string>
+    <string name="error_phone">Invalid phone number</string>
+    <string name="success_login">login succeeded</string>
+    <string name="success_register">register succeeded</string>
+    <string name="_120_000_xaf">120 000 xaf</string>
+    <string name="_100_000_xaf">100 000 xaf</string>
+    <string name="my_cart">My Cart</string>
+    <string name="_3_articles">3 articles</string>
+    <string name="todo">TODO</string>
+    <string name="computer">Computer</string>
+    <string name="TODO2">TODO</string>
+    <string name="_1">1</string>
+    <string name="todo3">TODO</string>
+    <string name="todo4">TODO</string>
+    <string name="book_now">Book now</string>
+    <string name="_220_000_xaf">220 000 xaf</string>
+    <string name="delivery">Delivery</string>
+    <string name="summary">SUMMARY</string>
+    <string name="total_amound">Total amound</string>
+    <string name="dell_latitude_5050">Dell LATITUDE 5050</string>
+    <string name="free">Free</string>
+    <string name="total">Total</string>
+    <string name="name">Name</string>
+    <string name="email_example_com">email@example.com</string>
+    <string name="log_out">Log out</string>
+    <string name="bonjour">Bonjour!</string>
+    <string name="_10_000_000_xaf">10 000 000 xaf</string>
+    <string name="sumary">Summary</string>
+
+
+    <string-array name="genders">
+        <item>male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+</resources>

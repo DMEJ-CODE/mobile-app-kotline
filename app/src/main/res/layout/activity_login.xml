@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/login_title"
+            android:textColor="@color/text_primary"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="239dp"
+            android:layout_height="220dp"
+            android:background="@drawable/rounded"
+            android:layout_marginBottom="50dp"
+            app:srcCompat="@drawable/shopaholics___online_store" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:background="@drawable/bg_glass"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginTop="29dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/bg_input"
+                android:hint="@string/hint_email"
+                android:inputType="textEmailAddress"
+                android:paddingHorizontal="16dp"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_secondary" />
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginBottom="28dp"
+                android:background="@drawable/bg_input"
+                android:hint="@string/hint_password"
+                android:inputType="textPassword"
+                android:paddingHorizontal="16dp"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_secondary" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/bg_button"
+                android:text="@string/btn_login"
+                android:textColor="@color/text_primary"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="21dp"
+                android:text="@string/link_register"
+                android:textColor="@color/primary_light"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
